@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digi404 : Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Lier css avec html -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- add favicon from assets/img/favIcon.jpg -->
+    <link rel="icon" href="assets/img/favIcon.jpg" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logoApp.png" alt="logo" class="logoApp" />
+
+      <nav>
+        <ul>
+          <li class="active">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li>
+            <a href="#aboutUs">A propos</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contactUs">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button>Connectez-vous</button>
+    </header>
+
+    <main>
+      <!-- section hero -->
+      <section id="hero">
+        <div class="gauche">
+          <h1>Bienvenue sur Digi404</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+            labore nihil doloremque, totam necessitatibus aliquid officiis
+            perferendis corrupti nobis ex! Aut deserunt pariatur ducimus modi?
+          </p>
+          <button>Apprendre plus</button>
+        </div>
+        <div class="droite"> 
+          <img src="assets/img/hero-image.png" alt="image" />
+          <div class="effets">
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-bloc">
+        <!-- Section services -->
+        <section id="services">
+          <h2>Services</h2>
+
+          <div class="services-list">
+            <div class="card-service">
+              <div class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <h3>Service 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                deserunt perferendis, unde consequatur placeat facere temporibus
+                totam. Dolorum, inventore molestiae!
+              </p>
+            </div>
+            <div class="card-service">
+              <div class="icon">
+                <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+              </div>
+              <h3>Service 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                deserunt perferendis, unde consequatur placeat facere temporibus
+                totam. Dolorum, inventore molestiae!
+              </p>
+            </div>
+
+            <div class="card-service">
+              <div class="icon">
+                <i class="fa-solid fa-cart- fa-users-gear"></i>
+              </div>
+              <h3>Service 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                deserunt perferendis, unde consequatur placeat facere temporibus
+                totam. Dolorum, inventore molestiae!
+              </p>
+            </div>
+
+            <div class="card-service">
+              <div class="icon">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <h3>Service 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                deserunt perferendis, unde consequatur placeat facere temporibus
+                totam. Dolorum, inventore molestiae!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section sur l'album -->
+        <section id="album">
+          <h2>Album</h2>
+
+          <div class="photo">
+            <img src="/assets/img/pexels-luis-gomes-166706-546819.jpg" />
+            <img src="/assets/img/pexels-pavel-danilyuk-7942426.jpg" />
+            <img src="/assets/img/pexels-rethaferguson-3059655.jpg" />
+            <img src="/assets/img/pexels-divinetechygirl-1181325.jpg" />
+            <img src="/assets/img/pexels-luis-gomes-166706-546819.jpg" />
+            <img src="/assets/img/pexels-pavel-danilyuk-7942426.jpg" />
+            <img src="/assets/img/pexels-rethaferguson-3059655.jpg" />
+            <img src="/assets/img/pexels-luis-gomes-166706-546819.jpg" />
+          </div>
+        </section>
+
+        <!-- Section contact -->
+        <section id="contact">
+          <div class="partie1">
+            <h2 id="aboutUs">Qui sommes-nous ?</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nihil tempora dolor ad ea commodi, ab provident expedita praesentium eum et cupiditate temporibus quidem veniam natus eos illo, esse culpa voluptate officiis beatae distinctio odio! Velit culpa unde iure itaque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quas, velit eius iste sit tempora optio reprehenderit mollitia atque
+              quasi?
+            </p>
+          </div>
+          <div class="partie2">
+            <h2 id="contactUs">Contactez-nous</h2>
+            <form action="">
+              <input type="text" placeholder="Votre nom" />
+              <input type="email" placeholder="Votre adresse mail" />
+              <textarea name="message" placeholder="Votre message"></textarea>
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>© Digi404 2025 - Tous droits reservés.</p>
+      </footer>
+
+      <!-- Medias sociaux liens -->
+      <div class="reseaux">
+        <div class="carte">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="carte">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="carte">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
