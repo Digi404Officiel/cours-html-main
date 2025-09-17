@@ -221,7 +221,7 @@ header button:hover {
 
 .services-list .card-service {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--var-bg-dark);
   padding: 1rem;
   border-radius: 5px;
   position: relative;
@@ -230,7 +230,7 @@ header button:hover {
 .card-service .icon {
   width: 50px;
   height: 50px;
-  background-color: var(--var-bg-dark);
+  background-color: var(--var-primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,11 +241,15 @@ header button:hover {
 
 .card-service .icon i {
   font-size: 1.3rem;
-  color: var(--var-primary-color);
+  color: var(--var-text-color-dark);
 }
 
 .card-service h3 {
   margin-top: 1rem;
+}
+
+.card-service p {
+  color: var(--var-text-color-white);
 }
 
 /* Mise en forme de la partie album */
@@ -253,13 +257,12 @@ header button:hover {
 #album {
   margin-top: 2rem;
   padding: 1rem;
-  background-color: var(--var-bg-dark);
 }
 
 #album h2 {
   font-size: 2rem;
   font-weight: 900;
-  color: var(--var-primary-color);
+  color: var(--var-text-color-dark);
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -367,7 +370,7 @@ footer {
   position: fixed;
   right: 0;
   bottom: 3rem;
-  background-color: #ccb6fa;
+  background-color: var(--var-primary-color);
   padding: 10px;
   border-radius: 2px;
   display: flex;
@@ -387,7 +390,7 @@ footer {
 }
 
 .carte:hover {
-  background-color: #fff;
+  background-color: var(--var-text-color-dark);
   border-radius: 5px;
 }
 
