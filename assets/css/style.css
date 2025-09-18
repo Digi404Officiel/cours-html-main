@@ -394,6 +394,10 @@ footer {
   border-radius: 5px;
 }
 
+.carte:hover i {
+  color: var(--var-primary-color);
+}
+
 /* Medias queries */
 
 @media screen and (max-width: 768px) {
